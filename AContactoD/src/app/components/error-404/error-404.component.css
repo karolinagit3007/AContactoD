@@ -52,7 +52,7 @@
 }
 
 .fun-interaction-image {
-  width: 500px; /* Ajusta este valor para el tamaño deseado */
+  width: 500px; 
   height: auto;
   border: 5px solid #007bff;
   border-radius: 10px;

@@ -1,9 +1,9 @@
 /* products.component.css */
 .card {
-  border: none; /* Elimina el borde de las tarjetas si es necesario */
+  border: none; 
 }
 
 .card-img-top {
-  height: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
-  object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+  height: 200px; 
+  object-fit: cover; 
 }

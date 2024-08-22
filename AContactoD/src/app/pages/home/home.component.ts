@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Products } from '../../utils/products';
 import * as productData from '../../../../public/json/productData.json';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-home',
