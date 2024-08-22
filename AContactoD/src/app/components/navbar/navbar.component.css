@@ -1,0 +1,53 @@
+/* Estilos generales para la barra de navegación */
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  background-color: #000000 !important; /* Color de fondo negro con !important */
+  padding: 15px 20px; /* Espaciado dentro de la barra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.navbar-brand {
+  color: #ffffff !important; /* Color del texto de la marca en blanco con !important */
+  font-size: 24px; /* Tamaño de la fuente de la marca */
+  font-weight: bold; /* Negrita para la marca */
+}
+
+.navbar-brand:hover {
+  color: #d3d3d3 !important; /* Color al pasar el mouse sobre la marca */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.navbar-toggler {
+  border: none; /* Elimina el borde del botón de hamburguesa */
+}
+
+.navbar-toggler-icon {
+  background-image: url('https://fusionmoda.es/wp-content/uploads/que-marca-de-ropa-es-un-circulo-1.webp'); /* Personaliza el ícono */
+}
+
+.nav-link {
+  color: #ffffff !important; /* Color de los enlaces en blanco con !important */
+  font-size: 18px; /* Tamaño de la fuente de los enlaces */
+  font-weight: bold; /* Negrita para los enlaces */
+  margin-right: 15px; /* Espacio entre los enlaces */
+}
+
+.nav-link:hover {
+  color: #d3d3d3 !important; /* Color al pasar el mouse sobre los enlaces */
+}
+
+.nav-link.active {
+  color: #f8f9fa !important; /* Color del enlace activo */
+  font-weight: bold; /* Negrita para el enlace activo */
+  border-bottom: 2px solid #ffffff; /* Línea bajo el enlace activo */
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #000000 !important; /* Fondo negro cuando el navbar está colapsado */
+    padding: 10px; /* Espaciado adicional cuando está colapsado */
+  }
+}
+
+.container-fluid {
+  max-width: 1200px; /* Limita el ancho máximo de la barra de navegación */
+}

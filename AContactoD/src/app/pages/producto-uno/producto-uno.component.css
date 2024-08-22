@@ -1,0 +1,32 @@
+
+
+.product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .product-image {
+    max-width: 40%;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    max-width: 50%;
+  }
+  
+  .product-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .product-info .btn {
+    font-size: 1.2em;
+  }
+  
